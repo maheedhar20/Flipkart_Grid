@@ -18,7 +18,7 @@ As a first step, we have performed image classification of the grocery images in
 Once we have the image classified, the next step would be to detect the probable bounding box of expiry date for a packed product and then extract the data from the bounding box. We used VGG16 Architecture for Bounding box Regression.
 We have the coordinates of bounding boxes. We then crop the image to get the Region of Interest and converted the image to grayscale, then resized our image and applied morphological transforms to enhance the contrast of the pixels of the image. We then used EasyOCR to get the text from the image.
 
-![image](https://github.com/user-attachments/assets/eb389110-b1b3-40bb-b7d9-2ee85a9a6b8e)
+![image](https://github.com/user-attachments/assets/38725021-a52d-4544-a1eb-be8049282251)
 
 ## 3. Brand Recognition and Product Details Extraction
 For recognising the brand of the product and extraction of other details like Price, Product name, manufacturer, we used Tesseract OCR to extract text from images and then used NLP techniques to further extarct specific product information from 
